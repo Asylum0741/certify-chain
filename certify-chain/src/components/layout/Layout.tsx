@@ -25,7 +25,7 @@ const Layout = ({ children }: LayoutProps) => {
                   CFC
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-                  CERTI-FI-CHAIN
+                  Certify-Chain
                 </span>
               </div>
               <p className="text-gray-600 text-sm">
@@ -77,7 +77,7 @@ const Layout = ({ children }: LayoutProps) => {
               <h3 className="font-semibold mb-4">Connect</h3>
               <ul className="space-y-2">
                 {[
-                  { href: '#', label: 'Twitter', icon: '🐦' },
+                  { href: '#', label: 'Twitter', icon: '🤖' },
                   { href: '#', label: 'Discord', icon: '💬' },
                   { href: '#', label: 'GitHub', icon: '📦' },
                 ].map((link) => (

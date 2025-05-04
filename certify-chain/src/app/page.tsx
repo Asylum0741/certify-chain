@@ -20,7 +20,7 @@ export default function Home() {
               Ensure authenticity and eliminate fraud.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button className="bg-blue text-blue-600 hover:bg-blue-50">
+              <Button variant="secondary" className=" text-blue-600 hover:bg-blue-50">
                 Get Started
               </Button>
               <Button variant="outline" className="text-white border-white hover:bg-white/10">
@@ -151,18 +151,18 @@ export default function Home() {
             {[
               {
                 quote: "The blockchain verification system has revolutionized how we issue certificates. It's secure and efficient.",
-                author: "Dr. Sarah Johnson",
-                role: "Dean, MIT"
+                author: "Prabhat Mukhiya",
+                role: "Computer Science Student"
               },
               {
                 quote: "As a student, having my certificates on the blockchain gives me confidence in their authenticity and global recognition.",
-                author: "Michael Chen",
+                author: "Manishankar Tripathi",
                 role: "Computer Science Student"
               },
               {
                 quote: "The verification process is incredibly fast and reliable. It has streamlined our recruitment process significantly.",
-                author: "Emily Brown",
-                role: "HR Director, Tech Corp"
+                author: "Sachin Bind",
+                role: "Computer Science Student"
               }
             ].map((testimonial) => (
               <div
@@ -193,7 +193,7 @@ export default function Home() {
             <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
               Join thousands of institutions and students already using our platform
             </p>
-            <Button className="bg-white text-blue-600 hover:bg-blue-50">
+            <Button className=" text-blue-600 hover:bg-blue-50">
               Create Free Account
             </Button>
           </div>

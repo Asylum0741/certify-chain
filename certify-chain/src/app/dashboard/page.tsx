@@ -12,10 +12,10 @@ export default function Dashboard() {
           <div className="relative">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-2xl md:text-3xl font-bold text-white">Welcome Back, John!</h1>
+                <h1 className="text-2xl md:text-3xl font-bold text-white">Welcome Back, Prabhat!</h1>
                 <p className="text-blue-100 mt-2">Here's an overview of your academic achievements</p>
               </div>
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 group">
+              <Button className=" text-blue-600 hover:bg-blue-50 group">
                 Issue Certificate
                 <span className="inline-block ml-2 transition-transform duration-300 group-hover:translate-x-1">
                   →
@@ -114,7 +114,7 @@ export default function Dashboard() {
                         </div>
                         <div>
                           <h3 className="text-sm font-medium text-gray-900">Advanced Web Development</h3>
-                          <p className="text-sm text-gray-500">Issued by MIT • 2 weeks ago</p>
+                          <p className="text-sm text-gray-500">Issued by CSMIT, Panvel • 2 weeks ago</p>
                         </div>
                       </div>
                       <Button variant="ghost" size="sm" className="text-blue-600">
@@ -165,7 +165,7 @@ export default function Dashboard() {
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Recent Activity</h2>
               <div className="space-y-4">
                 {[
-                  { text: 'Your certificate was verified by Tesla Inc.', time: '2h ago' },
+                  { text: 'Your certificate was verified by CSMIT', time: '2h ago' },
                   { text: 'You ranked up to #28 globally', time: '1d ago' },
                   { text: 'New certificate issued by MIT', time: '2d ago' },
                   { text: 'Profile viewed by Microsoft', time: '3d ago' },

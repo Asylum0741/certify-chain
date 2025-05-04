@@ -83,22 +83,22 @@ export default function VerifyCertificate() {
                 {[
                   {
                     id: "CERT-123",
-                    name: "John Doe",
-                    institution: "MIT",
+                    name: "Prabhat",
+                    institution: "CSMIT",
                     date: "2h ago",
                     status: "verified"
                   },
                   {
                     id: "CERT-124",
-                    name: "Jane Smith",
-                    institution: "Stanford",
+                    name: "Manishankar",
+                    institution: "CSMIT",
                     date: "5h ago",
                     status: "verified"
                   },
                   {
                     id: "CERT-125",
-                    name: "Mike Johnson",
-                    institution: "Harvard",
+                    name: "Sachin",
+                    institution: "CSMIT",
                     date: "1d ago",
                     status: "verified"
                   }

@@ -25,7 +25,7 @@ const Navbar = () => {
                 CFC
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
-                CERTI-FI-CHAIN
+                Certify-Chain
               </span>
             </Link>
             <div className="hidden sm:ml-10 sm:flex sm:space-x-4">
